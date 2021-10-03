@@ -1,0 +1,42 @@
+.title{
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.grid-container{
+    display: grid;
+    row-gap: 40px;
+    column-gap: 10%;
+    grid-template-columns: 200px 1fr;
+    margin: 20px;
+}
+.grid-full{
+    grid-column: 1/3;
+}
+
+.archive-time{
+    font-weight: 400;
+    color: $grey;
+    margin-bottom: 5px;
+}
+.archive-grid-left{
+
+}
+.archive-grid-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.archive-image{
+    width: 200px;
+    border: solid 10px $turquoise;
+}
+.divider{
+    top: 10px;
+    position: sticky;
+    width: 50px;
+    border-top: 2.5px solid black;
+}
+.divider h2 {
+    padding-top: 10px;
+}

@@ -1,0 +1,30 @@
+//Fonts
+@import 'fonts';
+//Colors
+@import 'colors';
+
+//Pages
+@import 'archive';
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(180deg, $turquoise -176.56%, #FFFFFF 100%);
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+}
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+}
+h3 {
+    font-family: 'Space Mono', monospace;
+}
+h4 {
+    font-family: 'Space Mono', monospace;
+}
