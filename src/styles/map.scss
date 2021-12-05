@@ -1,0 +1,9 @@
+.map_container{
+    display: grid;
+    margin: 0 30px 30px 30px;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+.map_image{
+    width: 100%;
+}

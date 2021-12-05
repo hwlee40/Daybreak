@@ -4,27 +4,34 @@
 @import 'colors';
 
 //Pages
-@import 'archive';
+@import 'index', 'poster', 'initialimages', 'ardaybreak', 'essays', 'map';
 
 
 *{
     margin: 0;
+    background: black;
 }
-
-body{
-    background: linear-gradient(180deg, $turquoise -176.56%, #FFFFFF 100%);
+a {
+    text-decoration: none;
+    color: white;
 }
-
-h1 {
-    font-family: 'Space Mono', monospace;
+a:hover {
+    text-decoration: underline;
 }
-h2 {
-    font-family: 'Space Mono', monospace;
-    font-weight: 400;
+a:visited {
+    color: white;
 }
-h3 {
-    font-family: 'Space Mono', monospace;
+.back {
+    font-family: Space Mono;
+    font-size: 20px;
+    margin-left: 30px;
 }
-h4 {
-    font-family: 'Space Mono', monospace;
+.break{
+    height: 60px;
+}
+.break2{
+    height: 90px;
+}
+.break3{
+    height: 20px;
 }

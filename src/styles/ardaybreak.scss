@@ -1,0 +1,15 @@
+.grid-container-ardaybreak{
+    margin: 30px;
+    margin-top: 90px;   
+    display: grid;
+    grid-template-columns: 30vw auto;
+    gap: 30px;
+    z-index: -100;
+    pointer-events: none;
+}
+.video{
+    width: 100%;
+}
+.reduce-margins{
+    margin-top: 10px;
+}

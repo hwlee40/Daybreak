@@ -1,0 +1,26 @@
+.grid-container-initialimages{
+    display: grid;
+    margin-left: 30px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.inner-grid-initialimages{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 20px;
+}
+.initialimage{
+    width: 100%;
+}
+.initialimage-text{
+    color: white;
+    font-family: Space Mono;
+}
+.date{
+    margin-top: 20px;
+}
+h1{
+    font-weight: normal;
+    line-height: 100%;
+    margin-top: 10px;    
+}
